@@ -1,6 +1,13 @@
 import { defineNuxtConfig } from 'nuxt';
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      script: [
+        { src: 'scripts/segment.js' }
+      ],
+    },
+  },
   css: ['@/assets/css/roboto.css'],
   modules: [
     [

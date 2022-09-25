@@ -7,8 +7,6 @@ const { data } = await storyblokApi.get('cdn/stories/config', {
   
 const headerMenu = ref(null)
 headerMenu.value = data.story.content.header_menu
-
-console.log(headerMenu)
 </script>
   
 <template>
