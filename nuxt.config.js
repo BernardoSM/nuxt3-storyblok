@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   app: {
     head: {
       script: [
-        { src: 'scripts/segment.js' }
+        { src: 'scripts/segment.js' },
+        { src: 'scripts/liveChat.js' }
       ],
     },
   },
